@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const router = express.Router();
-const beersController = require('./controlles/beerController');
+const beersController = require('../controlles/beersController');
 
 router.get('/', beersController.getBeerList);
 
